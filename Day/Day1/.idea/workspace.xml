@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class03 - SamsungTV">
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/AppleSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/SamsungTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SamsungTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/TVUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/TVUser.java" afterDir="false" />
+    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class04 - Setter Injection">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBeanClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBeanClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/SamsungTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/SamsungTV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/TVUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/TVUser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +52,20 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CollectionBeanClient">
+    <configuration name="CollectionBeanClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbok.ioc.injection.CollectionBeanClient" />
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbok.ioc.injection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TVUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="polymorphism.TVUser" />
       <module name="day1" />
@@ -74,8 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CollectionBeanClient" />
+      <item itemvalue="Application.TVUser" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionBeanClient" />
         <item itemvalue="Application.TVUser" />
       </list>
     </recent_temporary>
@@ -88,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671428344911</updated>
-      <workItem from="1671428346798" duration="5860000" />
+      <workItem from="1671428346798" duration="6657000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Class01, 02">
       <created>1671434470466</created>
@@ -118,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671435617201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Fix] Class04 - Constructor Injection&#10;Apple/Sony Speaker, SamsungTV, applicationContext, TVUser">
+      <created>1671437615871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671437615871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +157,8 @@
     <MESSAGE value="[Feat] Class01, 02" />
     <MESSAGE value="[Fix] Class03 - TVUser and applicationContext.xml" />
     <MESSAGE value="[Fix] Class03 - SamsungTV" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class03 - SamsungTV" />
+    <MESSAGE value="[Fix] Class04 - Constructor Injection&#10;Apple/Sony Speaker, SamsungTV, applicationContext, TVUser" />
+    <MESSAGE value="[Fix] Class04 - Setter Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class04 - Setter Injection" />
   </component>
 </project>
