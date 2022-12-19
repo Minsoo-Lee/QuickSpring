@@ -1,25 +1,16 @@
 package polymorphism;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component("tv")
 public class LgTV implements TV {
-    @Autowired
-    @Qualifier("apple")
-    private Speaker speaker;
-
     public void powerOn() {
-        System.out.println("LG power on");
+        System.out.println("LgTV --- power on");
     }
     public void powerOff() {
-        System.out.println("LG power off");
+        System.out.println("LgTV --- power off");
     }
     public void volumeUp() {
-        speaker.volumeUp();
+        System.out.println("LgTV --- volume up");
     }
     public void volumeDown() {
-        speaker.volumeDown();
+        System.out.println("LgTV --- volume down");
     }
 }
