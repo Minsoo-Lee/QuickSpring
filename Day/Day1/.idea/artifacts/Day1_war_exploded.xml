@@ -14,6 +14,7 @@
           <element id="module-output" name="day1" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.h2database:h2:2.1.214" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
