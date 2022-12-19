@@ -7,13 +7,12 @@ public class SamsungTV implements TV {
     public SamsungTV() {
         System.out.println("===> SamsungTV(1) object generated");
     }
-    public SamsungTV(Speaker speaker) {
-        System.out.println("===> SamsungTV(2) object generated");
+    public void setSpeaker(Speaker speaker) {
+        System.out.println("===> setSpeaker() called");
         this.speaker = speaker;
     }
-    public SamsungTV(Speaker speaker, int price) {
-        System.out.println("===> SamsungTV(3) object generated");
-        this.speaker = speaker;
+    public void setPrice(int price) {
+        System.out.println("===> setPrice() called");
         this.price = price;
     }
     public void powerOn() {
