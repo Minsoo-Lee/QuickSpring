@@ -1,79 +1,3 @@
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-21-Nov-2022 18:57:57.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
-21-Nov-2022 18:57:57.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
-21-Nov-2022 18:57:57.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
-21-Nov-2022 18:57:57.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
-21-Nov-2022 18:57:57.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.0
-21-Nov-2022 18:57:57.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
-21-Nov-2022 18:57:57.397 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
-21-Nov-2022 18:57:57.397 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.17+8-LTS
-21-Nov-2022 18:57:57.397 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
-21-Nov-2022 18:57:57.398 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/minsoo/QuickSpring/apache-tomcat-9.0.68
-21-Nov-2022 18:57:57.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/minsoo/QuickSpring/apache-tomcat-9.0.68
-21-Nov-2022 18:57:57.422 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/conf/logging.properties
-21-Nov-2022 18:57:57.423 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-21-Nov-2022 18:57:57.424 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
-21-Nov-2022 18:57:57.424 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-21-Nov-2022 18:57:57.424 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-21-Nov-2022 18:57:57.424 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
-21-Nov-2022 18:57:57.424 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/minsoo/QuickSpring/apache-tomcat-9.0.68
-21-Nov-2022 18:57:57.425 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/minsoo/QuickSpring/apache-tomcat-9.0.68
-21-Nov-2022 18:57:57.425 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/temp
-21-Nov-2022 18:57:57.440 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/minsoo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-21-Nov-2022 18:57:58.030 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
-21-Nov-2022 18:57:58.061 심각 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector[HTTP/1.1-8080]]을(를) 초기화하지 못했습니다.
-	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
-		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
-		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
-		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
-		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
-		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
-		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
-		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
-		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
-		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
-		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
-	Caused by: java.net.BindException: Address already in use
-		at java.base/sun.nio.ch.Net.bind0(Native Method)
-		at java.base/sun.nio.ch.Net.bind(Net.java:459)
-		at java.base/sun.nio.ch.Net.bind(Net.java:448)
-		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
-		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:275)
-		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:230)
-		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1227)
-		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1240)
-		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:606)
-		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
-		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
-		... 13 more
-21-Nov-2022 18:57:58.063 정보 [main] org.apache.catalina.startup.Catalina.load [990] 밀리초 내에 서버가 초기화되었습니다.
-21-Nov-2022 18:57:58.222 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
-21-Nov-2022 18:57:58.223 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
-21-Nov-2022 18:57:58.231 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
-21-Nov-2022 18:57:58.737 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [502] 밀리초에 완료되었습니다.
-21-Nov-2022 18:57:58.739 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
-21-Nov-2022 18:57:58.806 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [66] 밀리초에 완료되었습니다.
-21-Nov-2022 18:57:58.806 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
-21-Nov-2022 18:57:59.175 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [368] 밀리초에 완료되었습니다.
-21-Nov-2022 18:57:59.175 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
-21-Nov-2022 18:57:59.206 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [30] 밀리초에 완료되었습니다.
-21-Nov-2022 18:57:59.206 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
-21-Nov-2022 18:57:59.238 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/minsoo/QuickSpring/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [32] 밀리초에 완료되었습니다.
-21-Nov-2022 18:57:59.258 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1195] 밀리초 내에 시작되었습니다.
-21-Nov-2022 23:52:23.564 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
-21-Nov-2022 23:52:23.585 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
-21-Nov-2022 23:52:24.769 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
-21-Nov-2022 23:52:24.795 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:20:43.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:20:43.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:20:43.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -137,7 +61,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:20:44.491 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:20:44.501 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
 28-Nov-2022 11:20:44.502 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:23:25.300 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:23:25.302 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:23:25.302 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -185,7 +108,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:28:15.358 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:28:15.378 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8081"]을(를) 중지시킵니다.
 28-Nov-2022 11:28:15.384 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8081"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:28:34.027 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:28:34.028 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:28:34.028 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -234,7 +156,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:29:37.628 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:29:37.635 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8081"]을(를) 중지시킵니다.
 28-Nov-2022 11:29:37.638 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8081"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:30:12.737 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:30:12.739 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:30:12.739 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -278,7 +199,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:30:13.121 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8081"]을(를) 시작합니다.
 28-Nov-2022 11:30:13.129 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [254] 밀리초 내에 시작되었습니다.
 28-Nov-2022 11:30:19.051 경고 [main] org.apache.catalina.core.StandardServer.await 유효하지 않은 셧다운 명령 []을(를) 받았습니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:39:59.254 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:39:59.256 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:39:59.256 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -370,7 +290,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:39:59.702 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:39:59.714 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:39:59.714 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:40:07.838 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:40:07.840 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:40:07.840 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -414,7 +333,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:40:08.251 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
 28-Nov-2022 11:40:08.259 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [272] 밀리초 내에 시작되었습니다.
 28-Nov-2022 11:40:12.957 경고 [main] org.apache.catalina.core.StandardServer.await 유효하지 않은 셧다운 명령 []을(를) 받았습니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:41:23.642 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:41:23.644 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:41:23.644 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -463,7 +381,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:41:40.323 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:41:40.332 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:41:40.334 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:42:12.029 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:42:12.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:42:12.030 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -512,7 +429,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:42:31.239 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:42:31.247 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:42:31.249 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:50:37.801 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:50:37.804 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:50:37.804 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -604,7 +520,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:50:38.234 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:50:38.245 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:50:38.246 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:52:39.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:52:39.472 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:52:39.473 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -652,7 +567,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:53:18.469 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:53:18.488 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:53:18.495 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:53:27.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:53:27.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:53:27.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -704,7 +618,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 11:59:39.774 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 11:59:39.783 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 11:59:39.787 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 11:59:58.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 11:59:58.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 11:59:58.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
@@ -757,7 +670,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 28-Nov-2022 12:10:59.995 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 28-Nov-2022 12:11:00.015 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
 28-Nov-2022 12:11:00.022 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 28-Nov-2022 12:11:06.190 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
 28-Nov-2022 12:11:06.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
 28-Nov-2022 12:11:06.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
