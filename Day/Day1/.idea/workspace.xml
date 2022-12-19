@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class05 - Component Scan">
+    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class05 - Qualifier">
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/AppleSpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/AppleSpeaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671428344911</updated>
-      <workItem from="1671428346798" duration="9038000" />
+      <workItem from="1671428346798" duration="9344000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Class01, 02">
       <created>1671434470466</created>
@@ -176,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671439652975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[Fix] Class05 - Autowired">
+      <created>1671447642287</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671447642287</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[Fix] Class05 - Qualifier">
+      <created>1671447717535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671447717535</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +218,8 @@
     <MESSAGE value="[Fix] Class04 - List type mapping" />
     <MESSAGE value="[Fix] Class04 - Map type mapping" />
     <MESSAGE value="[Fix] Class05 - Component Scan" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class05 - Component Scan" />
+    <MESSAGE value="[Fix] Class05 - Autowired" />
+    <MESSAGE value="[Fix] Class05 - Qualifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class05 - Qualifier" />
   </component>
 </project>
