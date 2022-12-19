@@ -1,6 +1,12 @@
 package polymorphism;
 
+import org.springframework.stereotype.Component;
+
+@Component("tv")
 public class LgTV implements TV {
+    public LgTV() {
+        System.out.println("===> LgTV object generated...");
+    }
     public void powerOn() {
         System.out.println("LgTV --- power on");
     }
