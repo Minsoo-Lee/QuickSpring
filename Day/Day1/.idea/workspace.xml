@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class05 - Qualifier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/board/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/board/BoardServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/board/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/board/impl/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/common/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Day1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Day1_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class06 - Business Component 01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/impl/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +55,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BoardServiceClient">
+  <component name="RunManager" selected="Application.UserServiceClient">
     <configuration name="BoardServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbok.biz.board.BoardServiceClient" />
       <module name="day1" />
@@ -101,13 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbok.biz.user.UserServiceClient" />
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbok.biz.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BoardServiceClient" />
       <item itemvalue="Application.CollectionBeanClient" />
+      <item itemvalue="Application.UserServiceClient" />
       <item itemvalue="Application.TVUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserServiceClient" />
         <item itemvalue="Application.BoardServiceClient" />
         <item itemvalue="Application.TVUser" />
         <item itemvalue="Application.CollectionBeanClient" />
@@ -122,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671428344911</updated>
-      <workItem from="1671428346798" duration="12274000" />
+      <workItem from="1671428346798" duration="13312000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Class01, 02">
       <created>1671434470466</created>
@@ -222,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671448200687</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[Fix] Class06 - Business Component 01">
+      <created>1671454847348</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671454847349</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +267,7 @@
     <MESSAGE value="[Fix] Class05 - Component Scan" />
     <MESSAGE value="[Fix] Class05 - Autowired" />
     <MESSAGE value="[Fix] Class05 - Qualifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class05 - Qualifier" />
+    <MESSAGE value="[Fix] Class06 - Business Component 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class06 - Business Component 01" />
   </component>
 </project>
