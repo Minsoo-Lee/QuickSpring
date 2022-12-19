@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class04 - List type mapping">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbok/ioc/injection/CollectionBean.java" afterDir="false" />
+    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class04 - Map type mapping">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionBeanClient">
+  <component name="RunManager" selected="Application.TVUser">
     <configuration name="CollectionBeanClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbok.ioc.injection.CollectionBeanClient" />
       <module name="day1" />
@@ -85,8 +86,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionBeanClient" />
         <item itemvalue="Application.TVUser" />
+        <item itemvalue="Application.CollectionBeanClient" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671428344911</updated>
-      <workItem from="1671428346798" duration="6788000" />
+      <workItem from="1671428346798" duration="7617000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Class01, 02">
       <created>1671434470466</created>
@@ -149,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671438388237</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Fix] Class04 - Map type mapping">
+      <created>1671438539469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671438539469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[Fix] Class04 - Map type mapping">
+      <created>1671438763922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671438763923</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +188,7 @@
     <MESSAGE value="[Fix] Class04 - Constructor Injection&#10;Apple/Sony Speaker, SamsungTV, applicationContext, TVUser" />
     <MESSAGE value="[Fix] Class04 - Setter Injection" />
     <MESSAGE value="[Fix] Class04 - List type mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class04 - List type mapping" />
+    <MESSAGE value="[Fix] Class04 - Map type mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class04 - Map type mapping" />
   </component>
 </project>
