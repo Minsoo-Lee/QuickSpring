@@ -1,9 +1,12 @@
 package com.springbook.biz.common;
 
-import org.aspectj.lang.JoinPoint;
+import org.springframework.stereotype.Service;
+import org.aspectj.lang.annotation.Pointcut;
 
 public class LogAdvice {
-    public void printLog(JoinPoint jp) {
-        System.out.println("[Common Log] Before Business Logic");
-    }
+    @Pointcut("execution(* com.springbook.biz..*Impl.*(..))")
+    public void allPointcut() {}
+
+    @Pointcut("execution(* com.springbook.biz..*Impl.get*(..))")
+    public void getPointcut() {}
 }
