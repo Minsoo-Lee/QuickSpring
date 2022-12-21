@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Fix] Class06 - Business Component 01">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/impl/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbok/biz/user/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c243b7f4-82fa-4b1a-949b-f8952fa3e0cf" name="Changes" comment="[Feat] Class07 - Business Component 02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671428344911</updated>
-      <workItem from="1671428346798" duration="13312000" />
+      <workItem from="1671428346798" duration="13497000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Class01, 02">
       <created>1671434470466</created>
@@ -239,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671454847349</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Feat] Class07 - Business Component 02">
+      <created>1671455047218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671455047218</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +268,7 @@
     <MESSAGE value="[Fix] Class05 - Autowired" />
     <MESSAGE value="[Fix] Class05 - Qualifier" />
     <MESSAGE value="[Fix] Class06 - Business Component 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Class06 - Business Component 01" />
+    <MESSAGE value="[Feat] Class07 - Business Component 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Class07 - Business Component 02" />
   </component>
 </project>
